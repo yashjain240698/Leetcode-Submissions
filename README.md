@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/yashjain240698/Leetcode-Submissions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0743-network-delay-time](https://github.com/yashjain240698/Leetcode-Submissions/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/yashjain240698/Leetcode-Submissions/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Binary Tree
 |  |
@@ -23,17 +24,21 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/yashjain240698/Leetcode-Submissions/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/yashjain240698/Leetcode-Submissions/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Graph Theory
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/yashjain240698/Leetcode-Submissions/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/yashjain240698/Leetcode-Submissions/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/yashjain240698/Leetcode-Submissions/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/yashjain240698/Leetcode-Submissions/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Shortest Path
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/yashjain240698/Leetcode-Submissions/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/yashjain240698/Leetcode-Submissions/tree/master/0787-cheapest-flights-within-k-stops) |
 <!---LeetCode Topics End-->
