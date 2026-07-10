@@ -41,4 +41,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0743-network-delay-time](https://github.com/yashjain240698/Leetcode-Submissions/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/yashjain240698/Leetcode-Submissions/tree/master/0787-cheapest-flights-within-k-stops) |
+## Array
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/yashjain240698/Leetcode-Submissions/tree/master/0380-insert-delete-getrandom-o1) |
+## Hash Table
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/yashjain240698/Leetcode-Submissions/tree/master/0380-insert-delete-getrandom-o1) |
+## Math
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/yashjain240698/Leetcode-Submissions/tree/master/0380-insert-delete-getrandom-o1) |
+## Design
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/yashjain240698/Leetcode-Submissions/tree/master/0380-insert-delete-getrandom-o1) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/yashjain240698/Leetcode-Submissions/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
