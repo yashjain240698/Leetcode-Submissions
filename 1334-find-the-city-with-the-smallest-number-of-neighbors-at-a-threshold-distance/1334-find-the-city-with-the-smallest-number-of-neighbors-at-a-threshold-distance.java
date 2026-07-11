@@ -1,14 +1,20 @@
 class Solution {
-    PriorityQueue<Pair> q = new PriorityQueue<>((a, b) -> a.dist - b.dist);
-    //Set<Integer> st = new HashSet<>();
+
+    class Pair {
+        int node;
+        int dist;
+
+        Pair(int node, int dist) {
+            this.node = node;
+            this.dist = dist;
+        }
+    }
+    PriorityQueue<Pair> q;
+    Map<Integer, Integer> ans = new HashMap<>();
 
     public void helper(int idx, Map<Integer, List<Pair>> mp, int distanceThreshold, int[] dist) {
-        //st = new HashSet<>();
         q = new PriorityQueue<>((a, b) -> a.dist - b.dist);
         q.offer(new Pair(idx, 0));
-        //st.add(idx);
-        //int th = distanceThreshold;
-        //List<Integer> tmp;
         while (!q.isEmpty()) {
             Pair k = q.poll();
             for (int i = 0; i < mp.getOrDefault(k.node, new ArrayList<>()).size(); i++) {
@@ -31,20 +37,9 @@ class Solution {
         ans.put(idx, cnt);
     }
 
-    Map<Integer, Integer> ans = new HashMap<>();
-
-    class Pair {
-        int node;
-        int dist;
-
-        Pair(int node, int dist) {
-            this.node = node;
-            this.dist = dist;
-        }
-    }
+    
 
     public int findTheCity(int n, int[][] edges, int distanceThreshold) {
-        //int[][] dp = new int[n][n];
         Map<Integer, List<Pair>> mp = new HashMap<>();
         List<Pair> temp;
         for (int i = 0; i < edges.length; i++) {
@@ -55,7 +50,6 @@ class Solution {
             temp.add(new Pair(edges[i][0], edges[i][2]));
             mp.put(edges[i][1], temp);
         }
-        int sz = 10000000;
         int finalans = -1;
         int minVal = Integer.MAX_VALUE;
         int[] dist = new int[n];
@@ -66,12 +60,7 @@ class Solution {
             helper(i, mp, distanceThreshold, dist);
             minVal = Math.min(minVal, ans.get(i));
         }
-        System.out.println("min : " + minVal);
         for (int i = 0; i < n; i++) {
-            // System.out.println("i : " + i + " size : " + ans.get(i).size());
-            // for (Integer k : ans.get(i)) {
-            //     System.out.print(k + " ");
-            // }
             if (ans.get(i) == minVal) {
                 finalans = Math.max(finalans, i);
             }
